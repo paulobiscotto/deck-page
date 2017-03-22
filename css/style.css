@@ -51,8 +51,6 @@ body {
 
 .grid h2{
 	font-size: 2em;
-
-
 }
 
 .grid p{
@@ -60,8 +58,10 @@ body {
 	padding-right: 40px;
 }
 
-
-
+.kikou-block{
+	max-width:350px;
+	margin:auto;
+}
 
 /*for the first VIDEO */
 
