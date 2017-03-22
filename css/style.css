@@ -6,7 +6,11 @@
 body {
 
 	font-family: "Roboto";
-	max-width: 100%;
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 
 }
 
@@ -37,6 +41,7 @@ body {
 	margin-top: 10em;
 	margin-bottom: 5em;
 
+
 }
 
 .grid img{
@@ -44,9 +49,15 @@ body {
 	max-width: 70px;
 }
 
+.grid h2{
+	font-size: 2em;
+
+
+}
+
 .grid p{
-	padding-left:30px;
-	padding-right: 30px;
+	padding-left:40px;
+	padding-right: 40px;
 }
 
 
@@ -59,6 +70,7 @@ body {
 	text-align: center;
 	margin-top: 10em;
 	margin-bottom: 10em;
+
 }
 
 .vid iframe{
@@ -66,6 +78,24 @@ body {
 	box-shadow: 0 3px 30px rgba(0,0,0,0.8);
 	max-width:80%; 
 }
+
+/* for the new container with various background */
+
+
+.apps img{ 
+	max-width: 50%;
+	margin-top: 5em;
+	/*box-shadow: 0 3px 30px rgba(0,0,0,0.8);*/
+ }
+
+.apps h2{ 
+	margin-top: 5em;
+	text-align: center;
+	/*box-shadow: 0 3px 30px rgba(0,0,0,0.8);*/
+ }
+
+
+
 
 /* effect on images */
 
