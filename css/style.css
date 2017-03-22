@@ -83,17 +83,26 @@ body {
 
 
 .apps img{ 
-	max-width: 50%;
+	max-width: 100%;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+	padding-left: 0px;
+	padding-right: 0px;
+	
 	margin-top: 5em;
-	/*box-shadow: 0 3px 30px rgba(0,0,0,0.8);*/
  }
+
+.text-block{
+	margin-top:5em;
+}
 
 .apps h2{ 
-	margin-top: 5em;
 	text-align: center;
-	/*box-shadow: 0 3px 30px rgba(0,0,0,0.8);*/
+	margin-bottom: 2em;
  }
 
+.apps p{
+	text-align: center;
+}
 
 
 
