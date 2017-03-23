@@ -96,14 +96,41 @@ body {
 }
 
 .apps h2{ 
-	text-align: center;
-	margin-bottom: 2em;
+	padding-left:50px;
+	margin-bottom: 1em;
  }
 
 .apps p{
+	padding-left:50px
+}
+
+
+/* creating a separator shape*/
+
+hr.shape{ 
+   
+  margin-top: 8em;
+  width: 100%;
+  border-top: dotted 2px;
+}
+
+/* Who are we working with atm*/
+
+.partners {
 	text-align: center;
 }
 
+.partners ul{
+	margin-bottom: 3em;
+}
+
+.partners li{
+	font-size: 2em;
+	text-align: center;
+	margin: 0.5em;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+	max-width: 30%
+}
 
 
 /* effect on images */
@@ -319,5 +346,6 @@ figure.effect-lily:hover p {
 		max-width: 100%;
 	}
 }
+
 
 
