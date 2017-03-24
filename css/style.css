@@ -181,11 +181,28 @@ hr.shape{
 
 .market{
 	text-align: center;
+	padding-top: 5em;
+}
+
+.market p{
+	text-align: left;
 
 }
 
-
-
+.number {
+	font-family: "Montserrat";
+	font-size: 5em;
+	font-weight: 800;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #4C8984;
+	text-align:center;
+}
+.number p{
+	font-size: 20px;
+	font-family: "Roboto";
+	text-align: center;
+}
 
 
 
