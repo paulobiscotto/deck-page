@@ -118,19 +118,77 @@ hr.shape{
 
 .partners {
 	text-align: center;
+	background: #E1F3F2;
+	padding-top:3em;
+	padding-bottom: 3em;
+	margin-top:6em;
+
 }
 
-.partners ul{
-	margin-bottom: 3em;
-}
-
-.partners li{
-	font-size: 2em;
-	text-align: center;
-	margin: 0.5em;
-	box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+.partners.container{
 	max-width: 30%
+	margin:30px;
 }
+
+.brandbox img{
+	max-width:70px;
+
+}
+
+.brandbox{
+	margin-top: 20px;
+	/*padding: 2em;*/
+	font-size: 2em;
+	color: #4C8984;
+}
+.brandbox:hover{
+	color: #bbbbbb;
+
+}
+
+.title{
+	margin-top: 1em;
+}
+
+#hover-content{
+	opacity: 0;
+	font-size: 20px;
+	text-justify:auto;
+	text-align: left;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+	padding: 10px;
+	border: 0px;
+	border-radius: 10px;
+	-webkit-transition: opacity 0.8s;
+	transition: opacity 0.5s; 
+	background: #ffffff;
+
+}
+
+.brandbox:hover #hover-content{
+	opacity: 0.80;
+
+}
+
+.brandbox:hover #hover-content{
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+
+
+}
+
+/* Market section, to explain why we kick more ass than every other AR tehc */
+
+.market{
+	text-align: center;
+
+}
+
+
+
+
+
+
 
 
 /* effect on images */
