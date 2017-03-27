@@ -270,9 +270,12 @@ h1 {
 	margin-left: 50px;
 	vertical-align: center;
 	display: inline-block;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.8);;
 }
 
-
+.btn a{
+	color:white;
+} 
 
 /* effect on images */
 
