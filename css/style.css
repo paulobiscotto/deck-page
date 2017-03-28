@@ -250,6 +250,7 @@ h1 {
 }
 .colortext{
 	color: #4C8984;
+	text-align: left;
 }
 
 .wecandoit {
@@ -257,6 +258,9 @@ h1 {
 	margin-top:10em;
 	margin-bottom: 5em;
 }
+
+
+
 
 .btn {
 	height: 50px;
@@ -275,10 +279,30 @@ h1 {
 
 .btn a{
 	color:white;
+}
+
+.wecandoit h2{
+	margin-top:5em;
 } 
+
+
+.contact{
+	margin-top:5em;
+	text-align: center;
+} 
+
+
+.needs {
+	margin-top:10em;
+}
 
 /* effect on images */
 
+.needs .container-fluid{
+	text-align: center;
+	margin-top:10em;
+	margin-bottom:10em;
+}
 
 
 figure.effect-lily img {
